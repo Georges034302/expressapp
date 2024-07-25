@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+</head>
+<body>
+    <form action="/users" method="post">
+        <table>
+            <th><td colspan="2">New User Form</td></th>
+            <tr><td>Name: </td><td><input type="text" name="firstName" value="<%=locals.firstName%>"></td></tr>
+            <tr><td></td><td><button type="submit">Submit</button></td></tr>
+        </table>
+    </form>
+</body>
+</html>
